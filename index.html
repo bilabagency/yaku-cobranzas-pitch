@@ -1378,6 +1378,34 @@ h3 { letter-spacing: -0.015em; }
   color: var(--violet-dark);
   font-weight: 500;
 }
+
+/* =========================================================
+   YAKÚ LOGO — hero chip + chat avatar
+   ========================================================= */
+.hero-customer-mark {
+  background: #fff;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.06);
+}
+.hero-customer-mark img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.chat-avatar {
+  background: #fff;
+  padding: 0;
+  overflow: hidden;
+  box-shadow: 0 0 0 2px rgba(255,255,255,0.35);
+}
+.chat-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
 </style>
 </head>
 <body>
@@ -1416,7 +1444,9 @@ h3 { letter-spacing: -0.015em; }
       <a href="#price" class="btn btn-ghost">Ver precio</a>
     </div>
     <div class="hero-customer">
-      <span class="hero-customer-mark">YA</span>
+      <span class="hero-customer-mark">
+        <img src="yaku-logo.png" alt="Yakú Agua" width="38" height="38" loading="lazy" />
+      </span>
       <div class="hero-customer-text">
         <strong>YAKÚ AGUA</strong>
         <small>Propuesta a medida · Abril 2026</small>
@@ -1646,7 +1676,9 @@ h3 { letter-spacing: -0.015em; }
     <div class="chat-layout">
       <div class="chat-window" aria-live="polite">
         <div class="chat-header">
-          <div class="chat-avatar">YA</div>
+          <div class="chat-avatar">
+            <img src="yaku-logo.png" alt="Yakú Agua" width="38" height="38" loading="lazy" />
+          </div>
           <div class="chat-header-text">
             <strong>Yakú Agua</strong>
             <small>en línea · automatizado</small>
